@@ -1,6 +1,6 @@
 
 # One Good Thing
-An app that encourages users to share one good thing that happened today. I was inspired to build this project in the midst of my own struggles with mental health. I find that focusing on the good things that happene every day (no matter how small) always seems to help, and I wanted to give others a space to do the same 💜
+An app that encourages users to share one good thing that happened today. I was inspired to build this project in the midst of my own struggles with mental health. I find that focusing on the good things that happen every day (no matter how small) always seems to help, and I wanted to give others a space to do the same 💜
 
 <!-- **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
