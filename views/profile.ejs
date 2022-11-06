@@ -7,15 +7,16 @@
 <!-- the good thing submisson-->
 <form action="/post/createPost" enctype="multipart/form-data" method="POST">
   <label for="the-thing" class="form-label">The thing:</label>
-  <input type="text" class="form-control" id="the-thing" name="the-thing">
+  <input type="text" class="form-control" id="the-thing" name="title">
   <label for="the-details class="form-label>The details:</label>
-  <textarea type="textarea" class="form-control" id="the-details" name="the-details"></textarea>
+  <textarea type="textarea" class="form-control" id="the-details" name="caption"></textarea>
   <label for="imgUpload" class="form-label">The photo:</label>
   <input type="file" class="form-control" id="imageUpload" name="file">
+  <button type="submit">Submit</button>
 </form>
 
 <!-- users good things -->
-<ul>
+<!-- <ul>
     <% for(var i=0; i<posts.length; i++) {%>
     <li class="">
       <a href="/post/<%= posts[i]._id%>">
@@ -24,7 +25,7 @@
       </a>
     </li>
     <% } %>
-</ul>
+</ul> -->
 
 <!-- feed, logout, and home buttons -->
 <a href="/feed">Return to Feed</a>
