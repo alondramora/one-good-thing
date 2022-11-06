@@ -5,6 +5,7 @@
 </div>
 
 <!-- the good thing submisson-->
+<!-- the "name" attribute in the inputs has to match the name in the mongoose schema, in the model -->
 <form action="/post/createPost" enctype="multipart/form-data" method="POST">
   <label for="the-thing" class="form-label">The thing:</label>
   <input type="text" class="form-control" id="the-thing" name="title">
@@ -16,16 +17,18 @@
 </form>
 
 <!-- users good things -->
-<!-- <ul>
+<h2>Looking back on the good things in your life:</h2>
+<ul>
     <% for(var i=0; i<posts.length; i++) {%>
     <li class="">
-      <a href="/post/<%= posts[i]._id%>">
+      <!-- <a href="/post/<%= posts[i]._id%>"> -->
         <h2><%= posts[i].title%></h2>
-        <img class="img-fluid" src="<%= posts[i].image%>">
+        <p><%= posts[i].caption%></p>
+        <img src="<%= posts[i].image%>" width="200">
       </a>
     </li>
     <% } %>
-</ul> -->
+</ul>
 
 <!-- feed, logout, and home buttons -->
 <a href="/feed">Return to Feed</a>
