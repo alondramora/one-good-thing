@@ -1,13 +1,17 @@
 <%- include('partials/header') -%>
 
-<h3 class="">Welcome! One Good Thing is a social app that encourages you to share one good thing that happened to you today. Our hope is to inspire daily gratitude through sharing, community, and reflection.</h3>
 
-<main class="container">
-    <div class="">
-        <a href="/login" class="bg-primary rounded-full"> Login</a>
-        <a href="/signup" class="bg-secondary rounded-full"> Signup</a>
+<div class="hero min-h-screen bg-base-100">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    <img src="/imgs/goodquote.webp" class="max-w-sm rounded-lg shadow-2xl" />
+    <div>
+      <h1 class="text-5xl font-bold">One Good Thing</h1>
+      <p class="py-6">Welcome! One Good Thing is a social app that encourages you to share one good thing that happened to you today. Our hope is to inspire daily gratitude through sharing, community, and reflection.</p>
+      <a href="/login" class="btn btn-primary">Login</a>
+      <a href="/signup" class="btn btn-primary">Signup</a>
     </div>
-</main>
+  </div>
+</div>
     
 
 <%- include('partials/footer') -%>
