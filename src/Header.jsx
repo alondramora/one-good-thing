@@ -4,7 +4,7 @@ function Header() {
   const [isActive, setActive] = useState(false);
   function handleClick() {
     setActive(!isActive);
-    console.log("active class added boi");
+    console.log(isActive);
     // toggle the 'active' class on the div.navbar-links
   }
 
