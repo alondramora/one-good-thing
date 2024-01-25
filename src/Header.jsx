@@ -20,13 +20,13 @@ function Header() {
         <div className={"navbar-links " + (isActive ? "active" : "")}>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Posts</a>
+              <a href="/create">Create</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </li>
           </ul>
         </div>
